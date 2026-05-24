@@ -132,5 +132,25 @@ An object is an instance of a class that contains actual data and can access cla
 
 
 
+**What is constructor?**
 
+A constructor is a special method used to initialize object values during object creation
+
+
+
+**Why use this keyword?**
+
+this refers to the current object and is commonly used to differentiate instance variables from local variables or constructor parameters.
+
+
+
+**Why main method is static?**
+
+main() is static because JVM calls it directly without creating object of the class.
+
+
+
+**Difference between while and do-while?**
+
+while checks condition before execution, while do-while executes at least once before checking condition.
 

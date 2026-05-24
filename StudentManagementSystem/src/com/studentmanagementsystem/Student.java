@@ -2,13 +2,13 @@ package com.studentmanagementsystem;
 
 public class Student {
 
-	int id;            // instance variables / fields
+	int id ;
 	String name;
 	double marks;
 	
 	
-	public Student (int id , String name , double marks) { //Constructors are special methods automatically called during object creation
-		this.id=id; //this.id--> current object  id --> Constructor parameter and this value would be given by user when the object is created 
+	public Student (int id, String name,double marks) {
+		this.id=id;
 		this.name=name;
 		this.marks=marks;
 	}
